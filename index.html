@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Festeja · Salão de festas infantil em São Borja | Bairro Tiro</title>
+<meta name="description" content="Festeja Salão de Festas, no bairro Tiro em São Borja: salão amplo e climatizado, com brinquedos como piscina de bolinhas e cama elástica. Aniversários infantis, chás e outros eventos. Consulte sua data pelo WhatsApp.">
+<meta name="theme-color" content="#0C0A07">
+<link rel="icon" type="image/png" href="img/favicon.png?v=3">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png?v=3">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Festeja · Aqui a criançada festeja">
+<meta property="og:description" content="Salão de festas climatizado no bairro Tiro, com brinquedos e espaço pra decorar. Consulte sua data pelo WhatsApp.">
+<meta property="og:image" content="https://festeja-demo.vercel.app/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500..900&family=Geist:wght@400..700&family=Great+Vibes&display=swap">
+<script>document.documentElement.classList.add("js")</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventVenue",
+  "name": "Festeja Salão de Festas",
+  "description": "Salão de festas amplo e climatizado no bairro Tiro, em São Borja, com estrutura para brinquedos.",
+  "image": "https://festeja-demo.vercel.app/og.jpg",
+  "telephone": "+55 55 99645-2596",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. 13 de Janeiro, 1268, Tiro",
+    "addressLocality": "São Borja",
+    "addressRegion": "RS",
+    "postalCode": "97670-000",
+    "addressCountry": "BR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -28.6517609, "longitude": -55.9980225 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "4" },
+  "sameAs": ["https://www.instagram.com/salaofestejasb/"]
+}
+</script>
+<style>
+/* ==========================================================================
+   FESTEJA · SALÃO DE FESTAS · BAIRRO TIRO, SÃO BORJA (RS)
+   Cores do logo: dourado dos fogos e do "Festeja" sobre o preto.
+   O colorido vem das fotos das festas. Títulos em Outfit, destaque em script.
+   ========================================================================== */
+:root {
+  --preto: #0C0A07;
+  --preto-2: #17130D;
+  --preto-3: #231C12;
+  --ouro: #F7C538;
+  --ouro-d: #DDA916;
+  --ouro-l: #FFE28C;
+  --creme: #FFFBF0;
+  --creme-2: #FFF3D1;
+  --ink: #17120A;
+  --ink-2: #5B4F3B;
+  --ink-3: #8C7F68;
+  --line: #EFE2BF;
+  --line-d: rgba(247, 197, 56, .18);
+  --wa: #1FA855;
+  --erro: #B42318;
+
+  --display: "Outfit", system-ui, sans-serif;
+  --sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --script: "Great Vibes", "Brush Script MT", cursive;
+
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --spring: cubic-bezier(.34, 1.56, .64, 1);
+  --gut: clamp(16px, 4vw, 48px);
+  --head: 76px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; background: var(--creme); color: var(--ink); font: 400 17px/1.62 var(--sans); overflow-x: clip; -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+p { margin: 0; }
+figure { margin: 0; }
+h1, h2, h3 { margin: 0; font-family: var(--display); font-weight: 800; letter-spacing: -.03em; text-wrap: balance; }
+h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); line-height: 1; }
+h2 em { font-style: normal; color: var(--ouro-d); }
+.dark h2 em, .gold h2 em { color: inherit; }
+.dark h2 em { color: var(--ouro); }
+.wrap { max-width: 1240px; margin-inline: auto; padding-inline: max(var(--gut), env(safe-area-inset-left, 0px)) max(var(--gut), env(safe-area-inset-right, 0px)); }
+.sec { padding-block: clamp(80px, 10vw, 136px); }
+section[id] { scroll-margin-top: calc(var(--head) + 8px); }
+.i { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--ouro); color: var(--ink); padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+.skip:focus { top: 12px; }
+:focus-visible { outline: 3px solid var(--ouro-d); outline-offset: 3px; border-radius: 6px; }
+
+.eyebrow { display: inline-flex; align-items: center; gap: 10px; font: 700 .78rem/1.2 var(--display); letter-spacing: .16em; text-transform: uppercase; color: var(--ouro-d); }
+.eyebrow svg { width: 16px; height: 16px; fill: currentColor; }
+.dark .eyebrow { color: var(--ouro); }
+.gold .eyebrow { color: var(--ink); }
+.lead { font-size: clamp(1.04rem, 1.25vw, 1.15rem); color: var(--ink-2); max-width: 52ch; }
+.dark .lead { color: rgba(255, 246, 225, .76); }
+.gold .lead { color: rgba(23, 18, 10, .8); }
+.sec-head { display: grid; gap: 18px; max-width: 760px; margin-bottom: clamp(36px, 5vw, 64px); }
+.dark { background: var(--preto); color: #FFF6E1; }
+.gold { background: var(--ouro); color: var(--ink); }
+.cream2 { background: var(--creme-2); }
+
+/* Buttons */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 6px 26px;
+  border: 0;
+  border-radius: 16px;
+  font: 700 1.02rem/1.15 var(--display);
+  letter-spacing: -.005em;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color .25s, color .25s, border-color .25s, box-shadow .3s, scale .2s var(--ease), translate .5s var(--spring);
+}
+.btn:active { scale: .97; }
+.btn svg { width: 22px; height: 22px; }
+.btn .wa { fill: currentColor; }
+.btn-ouro { background: var(--ouro); color: var(--ink); box-shadow: 0 16px 30px -16px rgba(221, 169, 22, .9), inset 0 -3px 0 rgba(0, 0, 0, .12); }
+.btn-ouro:hover { background: var(--ouro-l); }
+.btn-preto { background: var(--preto); color: var(--ouro); box-shadow: 0 16px 30px -18px rgba(12, 10, 7, .8); }
+.btn-preto:hover { background: var(--preto-3); }
+.btn-line { background: transparent; color: inherit; border: 2px solid currentColor; }
+.dark .btn-line { color: #FFF6E1; border-color: rgba(255, 246, 225, .3); }
+.dark .btn-line:hover { border-color: var(--ouro); color: var(--ouro); }
+.btn-line:hover { background: rgba(0, 0, 0, .04); }
+.btn-sm { min-height: 46px; padding: 4px 18px; font-size: .95rem; border-radius: 14px; }
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+.top { position: sticky; top: 0; z-index: 50; background: rgba(12, 10, 7, .9); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid transparent; transition: transform .45s var(--ease), border-color .3s; }
+.top.scrolled { border-color: var(--line-d); }
+.top.hide { transform: translateY(-100%); }
+.bar { height: var(--head); display: flex; align-items: center; gap: 24px; }
+.brand { display: block; flex: none; }
+.brand img { height: 52px; width: auto; }
+.links { display: flex; gap: 2px; margin-left: auto; }
+.links a { padding: 8px 14px; border-radius: 12px; font: 600 .95rem/1 var(--display); color: rgba(255, 246, 225, .78); transition: color .2s, background-color .2s; }
+.links a:hover { color: var(--ouro); background: rgba(247, 197, 56, .08); }
+
+/* ==========================================================================
+   HERO · VARAL DE FOTOS SOBRE FOGOS DOURADOS
+   ========================================================================== */
+.hero { position: relative; isolation: isolate; overflow: hidden; min-height: calc(100dvh - var(--head)); display: grid; align-items: center; padding-block: clamp(32px, 5vw, 64px) clamp(72px, 8vw, 110px); }
+.sky { position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; pointer-events: none; }
+.hero::after { content: ""; position: absolute; inset: auto 0 0 0; height: 30%; z-index: -1; background: linear-gradient(transparent, rgba(247, 197, 56, .07)); pointer-events: none; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(24px, 4vw, 56px); align-items: center; }
+.hero-copy { display: grid; gap: 26px; align-content: center; }
+.hero h1 { font-size: clamp(2.8rem, 5.6vw, 5rem); line-height: 1.04; color: #FFF6E1; }
+.hero h1 .ln { display: block; overflow: hidden; padding: .15em .35em .32em .2em; margin: -.15em -.35em -.32em -.2em; }
+.hero h1 .ln > span { display: inline-block; }
+.hero h1 .script { font: 400 1.45em/1.12 var(--script); letter-spacing: 0; color: var(--ouro); padding: 0 .2em 0 .12em; display: inline-block; }
+.js .hero h1 .ln > span { animation: rise 1.05s var(--ease) both; }
+.js .hero h1 .ln:nth-child(2) > span { animation-delay: .12s; }
+.js .hero h1 .ln { animation: hero-reveal 0.1s 1.25s forwards; }
+@keyframes hero-reveal { to { overflow: visible; } }
+@keyframes rise { from { translate: 0 110%; } }
+.js .hero-copy > :not(h1) { animation: fade .9s var(--ease) both; }
+.js .hero-copy > :nth-child(1) { animation-delay: .05s; }
+.js .hero-copy > :nth-child(3) { animation-delay: .3s; }
+.js .hero-copy > :nth-child(4) { animation-delay: .38s; }
+.js .hero-copy > :nth-child(5) { animation-delay: .46s; }
+@keyframes fade { from { opacity: 0; translate: 0 18px; } }
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line-d); background: rgba(247, 197, 56, .06); border-radius: 999px; padding: 8px 15px; font-size: .88rem; color: rgba(255, 246, 225, .82); }
+.chip b { color: #FFF6E1; }
+.stars { display: inline-flex; gap: 2px; color: var(--ouro); }
+.stars svg { width: 14px; height: 14px; fill: currentColor; }
+
+.varal { position: relative; width: 100%; aspect-ratio: 1.12; max-width: 640px; justify-self: end; }
+.varal .fio { position: absolute; left: -4%; top: 4%; width: 108%; height: 22%; overflow: visible; }
+.varal .fio path { fill: none; stroke: var(--ouro); stroke-width: 2.4; stroke-linecap: round; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, .5)); }
+.js .varal .fio path { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 1.4s .2s var(--ease) forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+.card {
+  position: absolute;
+  width: 32%;
+  transform-origin: 50% 0;
+  will-change: transform;
+}
+.card .pol { background: #FFFDF7; padding: 9px 9px 0; border-radius: 6px; box-shadow: 0 30px 40px -20px rgba(0, 0, 0, .85), 0 2px 0 rgba(0, 0, 0, .2); }
+.card img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 3px; }
+.card .lbl { display: block; padding: 8px 2px 11px; font: 700 .8rem/1.15 var(--display); color: var(--ink); text-align: center; }
+.card .pin { position: absolute; left: 50%; top: -14px; translate: -50% 0; width: 14px; height: 30px; border-radius: 4px; background: linear-gradient(90deg, #C9971A, var(--ouro-l) 45%, #C9971A); box-shadow: 0 3px 6px rgba(0, 0, 0, .5); z-index: 1; }
+.c1 { left: 1%; top: 13%; rotate: -5deg; }
+.c2 { left: 34%; top: 20%; rotate: 3deg; width: 34%; }
+.c3 { left: 69%; top: 13%; rotate: 6deg; }
+.c4 { left: 16%; top: 60%; rotate: -3deg; width: 28%; display: none; }
+.js .card .pol { animation: drop 1.2s var(--spring) both; }
+.js .c1 .pol { animation-delay: .5s; }
+.js .c2 .pol { animation-delay: .65s; }
+.js .c3 .pol { animation-delay: .8s; }
+@keyframes drop { from { translate: 0 -60px; opacity: 0; rotate: -8deg; } }
+.sway { animation: sway 5.5s ease-in-out infinite alternate; transform-origin: 50% 0; }
+.c2 .sway { animation-duration: 6.4s; animation-delay: -2s; }
+.c3 .sway { animation-duration: 4.8s; animation-delay: -1s; }
+@keyframes sway { from { rotate: -2.2deg; } to { rotate: 2.2deg; } }
+.gsap-on .sway { animation: none; }
+
+/* ==========================================================================
+   FAIXA
+   ========================================================================== */
+.band { background: var(--ouro); color: var(--ink); overflow: hidden; border-block: 3px solid var(--preto); }
+.band-track { display: flex; width: max-content; animation: mq 44s linear infinite; }
+.band-track span { display: inline-flex; align-items: center; gap: 26px; margin-right: 26px; padding: 16px 0; font: 800 clamp(1.15rem, 1.8vw, 1.5rem)/1 var(--display); text-transform: uppercase; letter-spacing: -.01em; white-space: nowrap; }
+.band-track svg { width: 18px; height: 18px; fill: var(--ink); }
+@keyframes mq { to { transform: translateX(-50%); } }
+.gsap-on .band-track { animation: none; }
+
+/* ==========================================================================
+   BRINQUEDOS
+   ========================================================================== */
+.toys { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); grid-template-rows: auto auto; gap: 18px; }
+.toy { position: relative; overflow: hidden; border-radius: 30px; background: var(--preto); color: #fff; isolation: isolate; }
+.toy img { width: 100%; height: 100%; object-fit: cover; transition: scale 1.2s var(--ease); }
+.toy:hover img { scale: 1.04; }
+.toy::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(12, 10, 7, .82)); pointer-events: none; }
+.toy figcaption { position: absolute; z-index: 2; left: 24px; right: 24px; bottom: 22px; display: grid; gap: 4px; }
+.toy figcaption b { font: 800 clamp(1.5rem, 2.4vw, 2.1rem)/1 var(--display); letter-spacing: -.02em; }
+.toy figcaption span { font-size: .92rem; color: rgba(255, 255, 255, .82); }
+.toy-a { grid-row: span 2; min-height: 620px; cursor: pointer; }
+.toy-b { min-height: 300px; }
+.toy-note { border-radius: 30px; background: var(--preto); color: #FFF6E1; padding: clamp(24px, 3vw, 36px); display: grid; gap: 16px; align-content: center; }
+.toy-note h3 { font-size: 1.7rem; line-height: 1.05; color: var(--ouro); }
+.toy-note ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.toy-note li { display: flex; gap: 10px; align-items: center; color: rgba(255, 246, 225, .86); }
+.toy-note li svg { width: 18px; height: 18px; fill: var(--ouro); flex: none; }
+.toy-note p { font-size: .92rem; color: rgba(255, 246, 225, .66); }
+.tap { position: absolute; z-index: 3; top: 18px; right: 18px; padding: 8px 14px; border-radius: 999px; background: var(--ouro); color: var(--ink); font: 700 .8rem/1 var(--display); box-shadow: 0 8px 20px -8px rgba(0, 0, 0, .6); }
+.ball { position: absolute; z-index: 1; width: 30px; height: 30px; border-radius: 50%; pointer-events: none; box-shadow: inset -4px -5px 8px rgba(0, 0, 0, .25), inset 3px 3px 6px rgba(255, 255, 255, .45); }
+
+/* ==========================================================================
+   O SALÃO
+   ========================================================================== */
+.hall { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(32px, 5vw, 72px); align-items: center; }
+.hall-pic { position: relative; border-radius: 32px; overflow: hidden; aspect-ratio: 4 / 3.1; background: var(--preto-2); }
+.hall-pic img { width: 100%; height: 115%; object-fit: cover; }
+.hall-pic figcaption { position: absolute; left: 18px; bottom: 16px; padding: 7px 13px; border-radius: 999px; background: rgba(12, 10, 7, .78); color: #FFF6E1; font: 600 .78rem/1.2 var(--display); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+.hall-copy { display: grid; gap: 24px; }
+.feats { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line-d); }
+.feats li { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--line-d); }
+.feats .ic { width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center; background: rgba(247, 197, 56, .12); color: var(--ouro); }
+.feats b { display: block; font: 700 1.08rem/1.2 var(--display); color: #FFF6E1; }
+.feats span { font-size: .9rem; color: rgba(255, 246, 225, .62); }
+.minis { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.minis figure { position: relative; border-radius: 20px; overflow: hidden; aspect-ratio: 1 / 1.05; }
+.minis img { width: 100%; height: 100%; object-fit: cover; }
+.minis figcaption { position: absolute; left: 10px; bottom: 10px; padding: 5px 10px; border-radius: 999px; background: rgba(12, 10, 7, .78); color: #FFF6E1; font: 600 .72rem/1.2 var(--display); }
+
+/* ==========================================================================
+   MONTE A SUA FESTA (CONVITE AO VIVO)
+   ========================================================================== */
+.build { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
+.build-copy { display: grid; gap: 22px; }
+.form { display: grid; gap: 22px; background: var(--creme); border-radius: 30px; padding: clamp(22px, 3vw, 34px); box-shadow: 0 30px 60px -40px rgba(12, 10, 7, .7); }
+.field { display: grid; gap: 8px; }
+.field > label, .field > .lab { font: 700 .82rem/1.2 var(--display); letter-spacing: .06em; text-transform: uppercase; color: var(--ink); }
+.help { font-size: .84rem; color: var(--ink-3); }
+.err { font-size: .86rem; color: var(--erro); font-weight: 600; }
+.err:empty { display: none; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill { font: 600 .95rem/1 var(--display); padding: 12px 16px; border-radius: 14px; border: 2px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; transition: background-color .25s, border-color .25s, color .25s, scale .2s var(--ease); }
+.pill:hover { border-color: var(--ouro-d); }
+.pill:active { scale: .96; }
+.pill[aria-pressed="true"] { background: var(--preto); border-color: var(--preto); color: var(--ouro); }
+.stepper { display: inline-flex; align-items: center; gap: 14px; }
+.stepper button { width: 46px; height: 46px; border-radius: 14px; border: 2px solid var(--line); background: #fff; font: 800 1.4rem/1 var(--display); color: var(--ink); cursor: pointer; transition: border-color .2s, scale .2s var(--ease); }
+.stepper button:hover { border-color: var(--ouro-d); }
+.stepper button:active { scale: .92; }
+.stepper output { min-width: 3.4ch; text-align: center; font: 900 2.4rem/1 var(--display); color: var(--ink); font-variant-numeric: tabular-nums; }
+.stepper small { font: 600 .95rem/1 var(--display); color: var(--ink-2); }
+.input { font: 500 1rem/1.2 var(--sans); padding: 14px 16px; border-radius: 14px; border: 2px solid var(--line); background: #fff; color: var(--ink); width: 100%; }
+.input:focus { outline: none; border-color: var(--ouro-d); box-shadow: 0 0 0 4px rgba(247, 197, 56, .3); }
+.input[aria-invalid="true"] { border-color: var(--erro); }
+.range { width: 100%; accent-color: var(--preto); }
+.range-val { font: 800 1.05rem/1 var(--display); }
+.hidden { display: none !important; }
+
+.invite-wrap { position: sticky; top: calc(var(--head) + 24px); display: grid; gap: 16px; }
+.invite {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background: var(--preto);
+  color: #FFF6E1;
+  padding: clamp(28px, 4vw, 44px) clamp(24px, 3.4vw, 40px);
+  box-shadow: 0 40px 70px -36px rgba(12, 10, 7, .9);
+  outline: 2px solid var(--ouro);
+  outline-offset: -12px;
+  text-align: center;
+  display: grid;
+  gap: 12px;
+}
+.invite .pre { font: 700 .74rem/1 var(--display); letter-spacing: .22em; text-transform: uppercase; color: var(--ouro); }
+.invite .title { font: 400 clamp(3rem, 6vw, 4.2rem)/1.15 var(--script); color: var(--ouro); padding: .05em .15em; overflow: visible; }
+.invite .what { font: 800 clamp(1.4rem, 2.4vw, 1.9rem)/1.1 var(--display); letter-spacing: -.02em; }
+.invite .when { font: 600 1.06rem/1.3 var(--display); color: var(--ouro-l); }
+.invite .extra { font-size: .96rem; color: rgba(255, 246, 225, .78); }
+.invite .where { margin-top: 6px; padding-top: 14px; border-top: 1px dashed rgba(247, 197, 56, .4); font-size: .84rem; color: rgba(255, 246, 225, .6); }
+.invite .bump { animation: bump .5s var(--spring); }
+@keyframes bump { 40% { scale: 1.06; } }
+.conf { position: absolute; z-index: 2; width: 8px; height: 13px; border-radius: 2px; pointer-events: none; }
+.msg { background: #fff; border-radius: 22px; padding: 14px; display: grid; gap: 12px; box-shadow: 0 24px 50px -36px rgba(12, 10, 7, .7); }
+.out { justify-self: end; max-width: 94%; background: #E3F6DA; border-radius: 18px 18px 4px 18px; padding: 12px 14px; font-size: .94rem; line-height: 1.5; color: var(--ink); }
+.msg .btn { width: 100%; }
+
+/* ==========================================================================
+   GALERIA · FESTAS QUE JÁ PASSARAM POR AQUI
+   ========================================================================== */
+.gal { overflow: hidden; }
+.gal-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+.gal-viewport { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding: 8px 0 24px; margin-top: clamp(32px, 4vw, 52px); }
+.gal-viewport::-webkit-scrollbar { display: none; }
+.gal-track { display: flex; gap: 18px; width: max-content; padding-inline: max(var(--gut), calc((100vw - 1240px) / 2 + var(--gut))); }
+.shot { position: relative; flex: none; width: clamp(240px, 24vw, 330px); aspect-ratio: 4 / 5; border-radius: 26px; overflow: hidden; scroll-snap-align: center; background: var(--preto-2); }
+.shot:nth-child(even) { margin-top: 48px; }
+.shot img { width: 100%; height: 100%; object-fit: cover; transition: scale 1s var(--ease); }
+.shot:hover img { scale: 1.05; }
+.shot figcaption { position: absolute; left: 14px; bottom: 14px; padding: 7px 13px; border-radius: 999px; background: var(--ouro); color: var(--ink); font: 700 .82rem/1.1 var(--display); }
+.gal-hint { display: inline-flex; align-items: center; gap: 8px; font: 600 .86rem/1 var(--display); color: rgba(255, 246, 225, .6); }
+.gsap-on .gal.pinned .gal-viewport { overflow: visible; scroll-snap-type: none; }
+
+/* ==========================================================================
+   OUTROS EVENTOS
+   ========================================================================== */
+.events { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.ev a { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 20px; align-items: center; padding: 24px 6px; border-bottom: 2px solid var(--ink); overflow: hidden; isolation: isolate; }
+.ev a::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--ouro); transform: scaleY(0); transform-origin: bottom; transition: transform .5s var(--ease); }
+.ev a:hover::before, .ev a:focus-visible::before { transform: scaleY(1); }
+.ev b { font: 800 clamp(1.5rem, 3.4vw, 2.6rem)/1 var(--display); letter-spacing: -.03em; transition: translate .5s var(--ease); }
+.ev a:hover b { translate: 12px 0; }
+.ev span { display: inline-flex; align-items: center; gap: 8px; font: 700 .95rem/1 var(--display); white-space: nowrap; }
+
+/* ==========================================================================
+   ONDE FICA + FECHAMENTO
+   ========================================================================== */
+.where { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 18px; }
+.map { border-radius: 30px; overflow: hidden; min-height: 440px; background: var(--creme); border: 3px solid var(--ink); }
+.map iframe { display: block; width: 100%; height: 100%; min-height: 434px; border: 0; }
+.info { background: #fff; border: 3px solid var(--ink); border-radius: 30px; padding: clamp(24px, 3vw, 34px); display: grid; gap: 18px; align-content: start; }
+.info h3 { font-size: 1.8rem; line-height: 1.05; }
+.rows { display: grid; gap: 14px; }
+.row { display: flex; gap: 14px; align-items: flex-start; }
+.row .i { color: var(--ouro-d); margin-top: 2px; }
+.row b { display: block; font-family: var(--display); font-weight: 700; }
+.row span { color: var(--ink-2); font-size: .94rem; }
+.info .btn { width: 100%; }
+.facade { border-radius: 18px; overflow: hidden; aspect-ratio: 16 / 9; }
+.facade img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+
+.final { position: relative; overflow: hidden; isolation: isolate; margin-top: clamp(56px, 8vw, 96px); border-radius: 40px; background: var(--preto); color: #FFF6E1; padding: clamp(48px, 8vw, 100px) clamp(24px, 6vw, 80px); display: grid; gap: 24px; justify-items: start; }
+.final .sky { z-index: -1; }
+.final h2 { font-size: clamp(2.4rem, 5.4vw, 4.6rem); line-height: 1.08; color: #FFF6E1; max-width: 16ch; }
+.final h2 .script { display: block; font: 400 1.25em/1.2 var(--script); letter-spacing: 0; color: var(--ouro); padding: .08em .25em .25em .15em; overflow: visible; }
+.final p { color: rgba(255, 246, 225, .76); font-size: 1.1rem; max-width: 46ch; }
+
+.foot { background: var(--preto); color: rgba(255, 246, 225, .72); padding: 52px 0 36px; border-top: 3px solid var(--ouro); }
+.foot-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 32px; margin-bottom: 30px; }
+.foot img { height: 70px; width: auto; }
+.foot p { margin-top: 14px; font-size: .92rem; max-width: 40ch; }
+.foot h4 { margin: 0 0 12px; font: 700 .76rem/1 var(--display); letter-spacing: .16em; text-transform: uppercase; color: var(--ouro); }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: .94rem; }
+.foot a:hover { color: var(--ouro); }
+.foot-bottom { border-top: 1px solid var(--line-d); padding-top: 20px; font-size: .82rem; color: rgba(255, 246, 225, .45); }
+
+.fab { position: fixed; right: 22px; bottom: 22px; z-index: 45; width: 60px; height: 60px; border-radius: 50%; background: var(--wa); color: #fff; display: grid; place-items: center; box-shadow: 0 16px 32px -12px rgba(31, 168, 85, .6); opacity: 0; scale: .8; pointer-events: none; transition: opacity .35s, scale .5s var(--spring); }
+.fab.on { opacity: 1; scale: 1; pointer-events: auto; }
+.fab svg { width: 30px; height: 30px; fill: currentColor; }
+.mbar { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 45; grid-template-columns: 1fr 1.4fr; gap: 10px; padding: 10px 14px max(10px, env(safe-area-inset-bottom)); background: rgba(12, 10, 7, .94); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line-d); }
+.mbar .btn { min-height: 50px; padding-inline: 12px; }
+.mbar .btn-line { color: #FFF6E1; border-color: rgba(255, 246, 225, .3); }
+
+.js .rv { opacity: 0; translate: 0 26px; transition: opacity .9s var(--ease), translate 1s var(--ease); transition-delay: var(--d, 0s); }
+.js .rv.in { opacity: 1; translate: none; }
+.split .w { display: inline-block; overflow: hidden; vertical-align: top; padding: .12em .2em .28em .15em; margin: -.12em -.2em -.28em -.15em; }
+.split .w > span { display: inline-block; }
+.split .script .w { overflow: visible; padding: .08em .25em .35em .15em; margin: -.08em -.25em -.35em -.15em; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+  .js .rv { opacity: 1; translate: none; }
+  .js .varal .fio path { stroke-dashoffset: 0; }
+}
+
+/* ==========================================================================
+   RESPONSIVO
+   ========================================================================== */
+@media (max-width: 1100px) {
+  .links a { padding: 8px 10px; font-size: .9rem; }
+}
+@media (max-width: 960px) {
+  .links { display: none; }
+  .bar { justify-content: space-between; }
+  .hero { min-height: 0; }
+  .hero-grid, .hall, .build, .where { grid-template-columns: minmax(0, 1fr); }
+  .varal { justify-self: center; max-width: 560px; }
+  .toys { grid-template-columns: minmax(0, 1fr); }
+  .toy-a { grid-row: auto; min-height: 460px; }
+  .invite-wrap { position: static; }
+  .foot-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  :root { --head: 64px; }
+  body { padding-bottom: 76px; }
+  .brand img { height: 42px; }
+  .top .btn-sm .lbl-long { display: none; }
+  .hero { padding-top: 26px; }
+  .hero-copy { display: contents; }
+  .hero-grid { gap: 22px; }
+  .hero-copy > .eyebrow { order: 1; }
+  .hero h1 { order: 2; font-size: clamp(2.5rem, 11.4vw, 3.2rem); }
+  .hero-copy > .lead { order: 3; }
+  .hero-copy > .cta-row { order: 4; }
+  .varal { order: 5; aspect-ratio: 1.2; }
+  .hero-copy > .chips { order: 6; }
+  .cta-row .btn { width: 100%; }
+  .card .lbl { font-size: .7rem; padding: 6px 2px 8px; }
+  .card .pol { padding: 6px 6px 0; }
+  .toy-a { min-height: 400px; }
+  .toy-b { min-height: 260px; }
+  .shot:nth-child(even) { margin-top: 24px; }
+  .ev a { padding: 20px 4px; }
+  .ev span { font-size: 0; gap: 0; }
+  .ev span svg { width: 24px; height: 24px; }
+  .map, .map iframe { min-height: 320px; }
+  .final { border-radius: 30px; }
+  .foot-grid { grid-template-columns: 1fr; }
+  .fab { display: none; }
+  .mbar { display: grid; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-wa" viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.7l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.6 10.6 0 0 1-1.7-5.7C5.1 9.9 10 5.2 16 5.2s10.9 4.7 10.9 10.6S22 26.4 16 26.4zm6-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9 2.8 1.1 3.3.9 3.9.8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 1.5l2.2 7.3 7.3 2.2-7.3 2.2L12 20.5l-2.2-7.3L2.5 11l7.3-2.2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h3l1.6 4.2-2 1.4a11 11 0 0 0 5.7 5.7l1.4-2 4.2 1.6v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M8 3v4M16 3v4M3.5 10h17"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M4 6l16 12M20 6 4 18M9 3.5 12 6l3-2.5M9 20.5 12 18l3 2.5"/></symbol>
+  <symbol id="i-balloon" viewBox="0 0 24 24"><path d="M12 15c3.3 0 6-3 6-6.6S15.3 2 12 2 6 4.8 6 8.4 8.7 15 12 15Zm0 0-1.2 2h2.4L12 15Zm0 2c0 2-2 2.4-2 4.5"/></symbol>
+  <symbol id="i-toy" viewBox="0 0 24 24"><circle cx="7" cy="16" r="3"/><circle cx="16" cy="9" r="3"/><circle cx="16.5" cy="17.5" r="2.5"/><circle cx="8" cy="7" r="2"/></symbol>
+  <symbol id="i-road" viewBox="0 0 24 24"><path d="M5 21 9 3M19 21 15 3M12 5v2M12 11v2M12 17v2"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></symbol>
+  <symbol id="i-drag" viewBox="0 0 24 24"><path d="M8 12h8M5 9l-3 3 3 3M19 9l3 3-3 3"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="Festeja Salão de Festas, início">
+      <img src="img/logo-festeja.png" alt="Logo Festeja Salão de Festas" width="960" height="336">
+    </a>
+    <nav class="links" aria-label="Navegação principal">
+      <a href="#brinquedos">Brinquedos</a>
+      <a href="#salao">O salão</a>
+      <a href="#monte">Monte sua festa</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#onde">Onde fica</a>
+    </nav>
+    <a class="btn btn-ouro btn-sm" href="#monte">Consultar<span class="lbl-long">&nbsp;minha data</span></a>
+  </div>
+</header>
+
+<main id="conteudo">
+  <!-- 1. TOPO -->
+  <section class="hero dark" id="inicio">
+    <canvas class="sky" id="sky" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Salão de festas · bairro Tiro · São Borja</p>
+        <h1>
+          <span class="ln"><span>Aqui a criançada</span></span>
+          <span class="ln"><span class="script">festeja.</span></span>
+        </h1>
+        <p class="lead">Salão amplo e climatizado, com brinquedos como piscina de bolinhas e cama elástica, e espaço pra decorar do jeito que a família sonhou. Consulte a sua data pelo WhatsApp.</p>
+        <div class="cta-row">
+          <a class="btn btn-ouro pull" href="#monte"><svg class="i"><use href="#i-cal"/></svg>Monte a sua festa</a>
+          <a class="btn btn-line" data-wa="Olá! Vim pelo site do Festeja e queria saber mais sobre o salão.">
+            <svg class="wa"><use href="#i-wa"/></svg>Falar no WhatsApp
+          </a>
+        </div>
+        <div class="chips">
+          <span class="chip"><span class="stars" aria-hidden="true"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span><b>5,0</b> no Google · 4 avaliações</span>
+          <span class="chip"><b>Climatizado</b></span>
+          <span class="chip"><b>Brinquedos</b> no salão</span>
+        </div>
+      </div>
+
+      <div class="varal" role="group" aria-label="Fotos de festas no Festeja">
+        <svg class="fio" viewBox="0 0 700 140" preserveAspectRatio="none" aria-hidden="true"><path d="M0 20 Q 350 150 700 20"/></svg>
+        <figure class="card c1" data-sway="1"><span class="pin" aria-hidden="true"></span><div class="sway"><div class="pol"><img src="img/bolinhas.webp" width="480" height="630" alt="Piscina de bolinhas coloridas com tenda, no Festeja" fetchpriority="high"><span class="lbl">Piscina de bolinhas</span></div></div></figure>
+        <figure class="card c2" data-sway="1.3"><span class="pin" aria-hidden="true"></span><div class="sway"><div class="pol"><img src="img/tema-kpop.webp" width="480" height="590" alt="Mesa de aniversário com arco de balões lilás e tema Guerreiras do K-pop" fetchpriority="high"><span class="lbl">Tema K-pop</span></div></div></figure>
+        <figure class="card c3" data-sway="0.9"><span class="pin" aria-hidden="true"></span><div class="sway"><div class="pol"><img src="img/cama-elastica.webp" width="480" height="630" alt="Cama elástica com rede de proteção, com a placa do Festeja ao fundo" fetchpriority="high"><span class="lbl">Cama elástica</span></div></div></figure>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="band-track">
+      <span>Aniversário infantil<svg><use href="#i-star"/></svg></span>
+      <span>Chá de bebê<svg><use href="#i-star"/></svg></span>
+      <span>Chá revelação<svg><use href="#i-star"/></svg></span>
+      <span>Piscina de bolinhas<svg><use href="#i-star"/></svg></span>
+      <span>Cama elástica<svg><use href="#i-star"/></svg></span>
+      <span>Salão climatizado<svg><use href="#i-star"/></svg></span>
+      <span>Bairro Tiro<svg><use href="#i-star"/></svg></span>
+      <span>Aniversário infantil<svg><use href="#i-star"/></svg></span>
+      <span>Chá de bebê<svg><use href="#i-star"/></svg></span>
+      <span>Chá revelação<svg><use href="#i-star"/></svg></span>
+      <span>Piscina de bolinhas<svg><use href="#i-star"/></svg></span>
+      <span>Cama elástica<svg><use href="#i-star"/></svg></span>
+      <span>Salão climatizado<svg><use href="#i-star"/></svg></span>
+      <span>Bairro Tiro<svg><use href="#i-star"/></svg></span>
+    </div>
+  </div>
+
+  <!-- 2. BRINQUEDOS -->
+  <section class="sec" id="brinquedos">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Brinquedos</p>
+        <h2>Brinquedo de verdade, <em>dentro do salão.</em></h2>
+        <p class="lead">O Festeja tem estrutura pra brinquedos, e a criançada se diverte sem sair da festa. Pergunte quais estão disponíveis pra sua data e a promoção do mês.</p>
+      </div>
+      <div class="toys">
+        <figure class="toy toy-a rv" id="pit" tabindex="0" aria-label="Piscina de bolinhas. Toque para jogar bolinhas.">
+          <img src="img/bolinhas-2.webp" width="480" height="475" alt="Piscina de bolinhas coloridas com tenda amarela e azul" loading="lazy">
+          <span class="tap" aria-hidden="true">Toque aqui</span>
+          <figcaption><b>Piscina de bolinhas</b><span>Com tenda e rede de proteção</span></figcaption>
+        </figure>
+        <figure class="toy toy-b rv" style="--d:.1s">
+          <img src="img/cama-elastica.webp" width="480" height="630" alt="Cama elástica com rede de proteção colorida" loading="lazy" style="object-position:50% 70%">
+          <figcaption><b>Cama elástica</b><span>Com rede em volta</span></figcaption>
+        </figure>
+        <div class="toy-note rv" style="--d:.2s">
+          <h3>E tem mais brinquedo</h3>
+          <ul>
+            <li><svg><use href="#i-star"/></svg>Piscina de bolinhas</li>
+            <li><svg><use href="#i-star"/></svg>Cama elástica</li>
+            <li><svg><use href="#i-star"/></svg>Escorregador</li>
+          </ul>
+          <p>O que entra na festa depende da data. Pergunte pelo WhatsApp e confira a promoção do mês.</p>
+          <a class="btn btn-ouro" data-wa="Olá! Vim pelo site do Festeja e queria saber dos brinquedos e da promoção do mês."><svg class="wa"><use href="#i-wa"/></svg>Perguntar dos brinquedos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. O SALÃO -->
+  <section class="sec dark" id="salao">
+    <div class="wrap hall">
+      <figure class="hall-pic" id="hallPic">
+        <img src="img/salao-1600.webp" srcset="img/salao-900.webp 900w, img/salao-1600.webp 1600w" sizes="(min-width: 960px) 60vw, 100vw" width="1600" height="1205" alt="Salão do Festeja com piso branco, mesas redondas com toalhas douradas e cadeiras pretas" loading="lazy">
+        <figcaption>O salão montado com mesas redondas</figcaption>
+      </figure>
+      <div class="hall-copy">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>O salão</p>
+        <h2>Amplo, <em>climatizado</em> e pronto pra decorar.</h2>
+        <ul class="feats">
+          <li class="rv"><span class="ic"><svg class="i"><use href="#i-snow"/></svg></span><div><b>Ambiente amplo e climatizado</b><span>Conforto pra família inteira, faça frio ou calor</span></div></li>
+          <li class="rv" style="--d:.08s"><span class="ic"><svg class="i"><use href="#i-balloon"/></svg></span><div><b>Espaço pra decoração</b><span>Receba o tema e a decoração que você escolher</span></div></li>
+          <li class="rv" style="--d:.16s"><span class="ic"><svg class="i"><use href="#i-toy"/></svg></span><div><b>Estrutura pra brinquedos</b><span>Piscina de bolinhas, cama elástica e escorregador</span></div></li>
+          <li class="rv" style="--d:.24s"><span class="ic"><svg class="i"><use href="#i-road"/></svg></span><div><b>Fácil de chegar</b><span>R. 13 de Janeiro, 1268, no bairro Tiro</span></div></li>
+        </ul>
+        <div class="minis">
+          <figure class="rv"><img src="img/salao-mesas.webp" width="480" height="535" alt="Mesas com toalhas brancas e balões azuis no salão" loading="lazy"><figcaption>Mesas montadas</figcaption></figure>
+          <figure class="rv" style="--d:.1s"><img src="img/salao-2-900.webp" width="900" height="678" alt="Salão do Festeja visto do fundo, com colunas brancas" loading="lazy"><figcaption>Vista do fundo</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. MONTE A SUA FESTA -->
+  <section class="sec gold" id="monte">
+    <div class="wrap build">
+      <div class="build-copy">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Monte a sua festa</p>
+        <h2>Sua data está <em>livre?</em></h2>
+        <p class="lead">Escolha o tipo de festa, a data e os brinquedos. O convite se monta aqui ao lado e a mensagem vai pronta pro WhatsApp do Festeja.</p>
+        <form class="form" id="festa" novalidate>
+          <div class="field">
+            <span class="lab" id="tipo-lab">Tipo de festa</span>
+            <div class="pills" role="group" aria-labelledby="tipo-lab" id="tipo">
+              <button class="pill" type="button" aria-pressed="true" data-v="infantil">Aniversário infantil</button>
+              <button class="pill" type="button" aria-pressed="false" data-v="cha-bebe">Chá de bebê</button>
+              <button class="pill" type="button" aria-pressed="false" data-v="cha-revelacao">Chá revelação</button>
+              <button class="pill" type="button" aria-pressed="false" data-v="outro">Outro evento</button>
+            </div>
+          </div>
+          <div class="field" id="idade-f">
+            <span class="lab" id="idade-lab">Quantos anos vai fazer?</span>
+            <div class="stepper" role="group" aria-labelledby="idade-lab">
+              <button type="button" id="menos" aria-label="Menos um ano">−</button>
+              <output id="idade" aria-live="polite">5</output>
+              <button type="button" id="mais" aria-label="Mais um ano">+</button>
+              <small id="anos-txt">anos</small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="data">Data que você quer</label>
+            <input class="input" id="data" type="date" aria-describedby="data-help data-err">
+            <span class="help" id="data-help">Ainda sem data? Deixe em branco que vocês combinam.</span>
+            <span class="err" id="data-err" role="alert"></span>
+          </div>
+          <div class="field">
+            <span class="lab" id="brinq-lab">Brinquedos</span>
+            <div class="pills" role="group" aria-labelledby="brinq-lab" id="brinq">
+              <button class="pill" type="button" aria-pressed="true" data-v="piscina de bolinhas">Piscina de bolinhas</button>
+              <button class="pill" type="button" aria-pressed="true" data-v="cama elástica">Cama elástica</button>
+              <button class="pill" type="button" aria-pressed="false" data-v="escorregador">Escorregador</button>
+            </div>
+          </div>
+          <div class="field">
+            <label for="conv">Convidados: <span class="range-val" id="conv-val">mais ou menos 60</span></label>
+            <input class="range" id="conv" type="range" min="20" max="200" step="10" value="60">
+          </div>
+        </form>
+      </div>
+
+      <div class="invite-wrap">
+        <div class="invite" id="invite" aria-live="polite">
+          <span class="pre">Festeja · Salão de Festas</span>
+          <span class="title">Vem festejar!</span>
+          <span class="what" id="iv-what">Aniversário de 5 anos</span>
+          <span class="when" id="iv-when">Data a combinar</span>
+          <span class="extra" id="iv-extra">Com piscina de bolinhas e cama elástica · mais ou menos 60 convidados</span>
+          <span class="where">R. 13 de Janeiro, 1268 · bairro Tiro · São Borja</span>
+        </div>
+        <div class="msg">
+          <p class="out" id="preview">Olá! Vim pelo site do Festeja. Queria consultar uma data para aniversário infantil de 5 anos, com piscina de bolinhas e cama elástica, para mais ou menos 60 convidados.</p>
+          <a class="btn btn-preto" id="sendBtn" href="https://wa.me/5555996452596"><svg class="wa"><use href="#i-wa"/></svg>Consultar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. GALERIA -->
+  <section class="sec dark gal" id="galeria">
+    <div class="wrap gal-head">
+      <div class="sec-head" style="margin:0">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Galeria</p>
+        <h2>Festas que já <em>passaram por aqui.</em></h2>
+        <p class="lead">Cada família escolheu o seu tema. O Festeja recebeu a festa.</p>
+      </div>
+      <span class="gal-hint"><svg class="i"><use href="#i-drag"/></svg>Arraste pro lado</span>
+    </div>
+    <div class="gal-viewport" id="galView">
+      <div class="gal-track" id="galTrack">
+        <figure class="shot"><img src="img/tema-kpop.webp" width="480" height="590" alt="Decoração com arco de balões lilás e painel Guerreiras do K-pop" loading="lazy"><figcaption>Guerreiras do K-pop</figcaption></figure>
+        <figure class="shot"><img src="img/tema-fazendinha.webp" width="480" height="530" alt="Mesa decorada com tema fazendinha e painel verde" loading="lazy"><figcaption>Fazendinha</figcaption></figure>
+        <figure class="shot"><img src="img/tema-flores.webp" width="480" height="590" alt="Arranjo de flores rosas e cupcakes com borboletas" loading="lazy"><figcaption>Jardim de flores</figcaption></figure>
+        <figure class="shot"><img src="img/tema-carros.webp" width="480" height="490" alt="Mesa com tema de carros de corrida e número 3 em neon" loading="lazy"><figcaption>Carros de corrida</figcaption></figure>
+        <figure class="shot"><img src="img/tema-doces.webp" width="480" height="580" alt="Docinhos em suportes coloridos sobre tronco de madeira" loading="lazy"><figcaption>Docinhos</figcaption></figure>
+        <figure class="shot"><img src="img/tema-corujas.webp" width="480" height="475" alt="Docinhos decorados com corujinhas e polvos" loading="lazy"><figcaption>Corujinhas</figcaption></figure>
+        <figure class="shot"><img src="img/bolo-10.webp" width="480" height="475" alt="Bolo branco de três andares com laços pretos e vela de 10 anos" loading="lazy"><figcaption>Bolo de 10 anos</figcaption></figure>
+        <figure class="shot"><img src="img/tema-rosa.webp" width="480" height="475" alt="Bolo rosa de andares em painel em arco com o número 1 iluminado" loading="lazy"><figcaption>Primeiro aninho</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. OUTROS EVENTOS -->
+  <section class="sec" id="eventos">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Outros eventos</p>
+        <h2>Também recebemos <em>o seu evento.</em></h2>
+        <p class="lead">Além das festas da criançada, o salão recebe outras comemorações. Toque e a mensagem vai pronta.</p>
+      </div>
+      <ul class="events">
+        <li class="ev rv"><a data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data para um aniversário."><b>Aniversários de todas as idades</b><span>Consultar data <svg class="i"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="ev rv" style="--d:.06s"><a data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data para casamento."><b>Casamentos</b><span>Consultar data <svg class="i"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="ev rv" style="--d:.12s"><a data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data para confraternização de empresa."><b>Confraternização de empresas</b><span>Consultar data <svg class="i"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="ev rv" style="--d:.18s"><a data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data para um almoço."><b>Almoços</b><span>Consultar data <svg class="i"><use href="#i-arrow"/></svg></span></a></li>
+        <li class="ev rv" style="--d:.24s"><a data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data para uma apresentação."><b>Apresentações</b><span>Consultar data <svg class="i"><use href="#i-arrow"/></svg></span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. ONDE FICA + FECHAMENTO -->
+  <section class="sec cream2" id="onde">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow"><svg><use href="#i-spark"/></svg>Onde fica</p>
+        <h2>No bairro Tiro, <em>fácil de chegar.</em></h2>
+      </div>
+      <div class="where">
+        <div class="map rv">
+          <iframe title="Mapa do Festeja na R. 13 de Janeiro, 1268, São Borja" src="https://maps.google.com/maps?q=Festeja%20Sal%C3%A3o%20de%20Festas%2C%20R.%2013%20de%20Janeiro%2C%201268%2C%20S%C3%A3o%20Borja%20-%20RS&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info rv" style="--d:.1s">
+          <div class="facade"><img src="img/fachada.webp" width="480" height="590" alt="Fachada do Festeja com a placa dourada sobre fundo preto" loading="lazy"></div>
+          <h3>Festeja Salão de Festas</h3>
+          <div class="rows">
+            <div class="row"><svg class="i"><use href="#i-pin"/></svg><div><b>R. 13 de Janeiro, 1268</b><span>Bairro Tiro · São Borja (RS)</span></div></div>
+            <div class="row"><svg class="i"><use href="#i-phone"/></svg><div><b>(55) 99645-2596</b><span>WhatsApp e ligação</span></div></div>
+            <div class="row"><svg class="i"><use href="#i-star"/></svg><div><b>5,0 no Google</b><span>4 avaliações, todas com 5 estrelas</span></div></div>
+            <div class="row"><svg class="i"><use href="#i-cal"/></svg><div><b>Datas e valores</b><span>Consulte pelo WhatsApp</span></div></div>
+          </div>
+          <a class="btn btn-preto" data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data."><svg class="wa"><use href="#i-wa"/></svg>Consultar data no WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="final">
+        <canvas class="sky" id="sky2" aria-hidden="true"></canvas>
+        <h2>Vai fazer aquela festa? <span class="script">Garanta a data.</span></h2>
+        <p>Mande uma mensagem pro Festeja e veja se o seu dia está livre. A mensagem já vai pronta.</p>
+        <div class="cta-row">
+          <a class="btn btn-ouro pull" data-wa="Olá! Vim pelo site do Festeja e quero garantir uma data."><svg class="wa"><use href="#i-wa"/></svg>Garantir minha data</a>
+          <a class="btn btn-line" href="https://www.instagram.com/salaofestejasb/" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>@salaofestejasb</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="img/logo-festeja.png" alt="Logo Festeja Salão de Festas" width="960" height="336" loading="lazy">
+        <p>O espaço ideal para momentos felizes. Salão de festas climatizado, com estrutura pra brinquedos, no bairro Tiro.</p>
+      </div>
+      <div>
+        <h4>Navegar</h4>
+        <ul>
+          <li><a href="#brinquedos">Brinquedos</a></li>
+          <li><a href="#salao">O salão</a></li>
+          <li><a href="#monte">Monte sua festa</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>R. 13 de Janeiro, 1268 · Tiro</li>
+          <li><a href="tel:+5555996452596">(55) 99645-2596</a></li>
+          <li><a href="https://www.instagram.com/salaofestejasb/" target="_blank" rel="noopener">Instagram @salaofestejasb</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">© Festeja Salão de Festas · São Borja (RS)</div>
+  </div>
+</footer>
+
+<a class="fab" data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data." aria-label="Falar no WhatsApp"><svg><use href="#i-wa"/></svg></a>
+<div class="mbar">
+  <a class="btn btn-line" href="tel:+5555996452596"><svg class="i"><use href="#i-phone"/></svg>Ligar</a>
+  <a class="btn btn-ouro" data-wa="Olá! Vim pelo site do Festeja e quero consultar uma data."><svg class="wa"><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const PHONE = "5555996452596";
+  const wa = (t) => `https://wa.me/${PHONE}?text=${encodeURIComponent(t)}`;
+  const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
+
+  $$("[data-wa]").forEach((a) => { a.href = wa(a.dataset.wa); a.target = "_blank"; a.rel = "noopener"; });
+
+  const head = $(".top"), fab = $(".fab");
+  let ticking = false;
+  const onScroll = () => { const y = scrollY; head.classList.toggle("scrolled", y > 16); fab.classList.toggle("on", y > 560); ticking = false; };
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  onScroll();
+
+  const rvs = $$(".rv");
+  if ("IntersectionObserver" in window && !reduce) {
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -8% 0px" });
+    rvs.forEach((el) => io.observe(el));
+  } else rvs.forEach((el) => el.classList.add("in"));
+
+  // gold fireworks, like the ones around the logo; they rest when off screen
+  const fireworks = (canvas, every) => {
+    if (!canvas || reduce) return;
+    const ctx = canvas.getContext("2d");
+    let w = 0, h = 0, parts = [], on = false, last = 0, raf = 0;
+    const size = () => { const r = canvas.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1); w = r.width; h = r.height; canvas.width = w * dpr; canvas.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
+    const burst = () => {
+      const x = w * (0.08 + Math.random() * 0.84), y = h * (0.08 + Math.random() * 0.42), n = 46 + Math.random() * 26;
+      for (let i = 0; i < n; i++) { const a = (i / n) * Math.PI * 2, s = 1.2 + Math.random() * 2.6; parts.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life: 1, hue: Math.random() < 0.8 ? "247,197,56" : "255,240,200" }); }
+    };
+    const tick = (t) => {
+      if (!on) { raf = 0; return; }
+      if (t - last > every) { burst(); last = t; }
+      ctx.clearRect(0, 0, w, h);
+      parts = parts.filter((p) => p.life > 0.02);
+      for (const p of parts) {
+        p.vx *= 0.985; p.vy = p.vy * 0.985 + 0.025; p.x += p.vx; p.y += p.vy; p.life *= 0.975;
+        ctx.fillStyle = `rgba(${p.hue},${p.life})`;
+        ctx.beginPath(); ctx.arc(p.x, p.y, 1.6 * p.life + 0.4, 0, Math.PI * 2); ctx.fill();
+      }
+      raf = requestAnimationFrame(tick);
+    };
+    size(); addEventListener("resize", size);
+    new IntersectionObserver(([e]) => { on = e.isIntersecting; if (on && !raf) { burst(); raf = requestAnimationFrame(tick); } }).observe(canvas);
+  };
+  fireworks($("#sky"), 1300);
+  fireworks($("#sky2"), 1700);
+
+  // ball pit: a tap throws colored balls into the air
+  const pit = $("#pit");
+  const COLORS = ["#E53935", "#1E88E5", "#FDD835", "#43A047", "#FB8C00", "#8E24AA"];
+  const throwBalls = (x, y) => {
+    if (reduce) return;
+    const r = pit.getBoundingClientRect();
+    for (let i = 0; i < 14; i++) {
+      const b = document.createElement("span");
+      b.className = "ball";
+      b.style.background = COLORS[i % COLORS.length];
+      b.style.left = (x - r.left - 15) + "px"; b.style.top = (y - r.top - 15) + "px";
+      pit.append(b);
+      const vx = (Math.random() - 0.5) * 9, vy0 = -7 - Math.random() * 7, t0 = performance.now();
+      const step = (t) => {
+        const s = (t - t0) / 16.7, dx = vx * s, dy = vy0 * s + 0.35 * s * s;
+        b.style.transform = `translate(${dx}px, ${dy}px) rotate(${dx * 4}deg)`;
+        if (s < 70 && y - r.top + dy < r.height + 40) requestAnimationFrame(step); else b.remove();
+      };
+      requestAnimationFrame(step);
+    }
+  };
+  if (pit) {
+    pit.addEventListener("click", (e) => throwBalls(e.clientX, e.clientY));
+    pit.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); const r = pit.getBoundingClientRect(); throwBalls(r.left + r.width / 2, r.top + r.height * 0.6); } });
+  }
+
+  // party builder: every choice rewrites the invitation and the message
+  const state = { tipo: "infantil", idade: 5, data: "", brinq: ["piscina de bolinhas", "cama elástica"], conv: 60 };
+  const TIPOS = { "infantil": "aniversário infantil", "cha-bebe": "chá de bebê", "cha-revelacao": "chá revelação", "outro": "evento" };
+  const DIAS = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+  const MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+  const list = (a) => a.length < 2 ? (a[0] || "") : a.slice(0, -1).join(", ") + " e " + a[a.length - 1];
+  const dataInput = $("#data"), err = $("#data-err"), invite = $("#invite");
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  dataInput.min = today.toISOString().slice(0, 10);
+  const parseDate = (v) => { if (!v) return null; const [y, m, d] = v.split("-").map(Number); return new Date(y, m - 1, d); };
+  const burst = () => {
+    if (reduce) return;
+    const r = invite.getBoundingClientRect();
+    for (let i = 0; i < 18; i++) {
+      const c = document.createElement("span");
+      c.className = "conf";
+      c.style.background = i % 3 ? "#F7C538" : "#FFF6E1";
+      c.style.left = r.width / 2 + "px"; c.style.top = "40%";
+      invite.append(c);
+      const a = Math.random() * Math.PI * 2, d = 80 + Math.random() * 120;
+      c.animate([{ transform: "translate(0,0) rotate(0)", opacity: 1 }, { transform: `translate(${Math.cos(a) * d}px, ${Math.sin(a) * d + 60}px) rotate(${Math.random() * 540}deg)`, opacity: 0 }], { duration: 900 + Math.random() * 500, easing: "cubic-bezier(.16,1,.3,1)" }).onfinish = () => c.remove();
+    }
+  };
+  const render = (fx) => {
+    const kid = state.tipo === "infantil";
+    $("#idade-f").classList.toggle("hidden", !kid);
+    $("#idade").textContent = state.idade;
+    $("#anos-txt").textContent = state.idade === 1 ? "aninho" : "anos";
+    const what = kid ? (state.idade === 1 ? "Primeiro aninho" : `Aniversário de ${state.idade} anos`) : TIPOS[state.tipo][0].toUpperCase() + TIPOS[state.tipo].slice(1);
+    const dt = parseDate(state.data);
+    let quando = "Data a combinar", quandoMsg = "uma data";
+    err.textContent = ""; dataInput.removeAttribute("aria-invalid");
+    if (dt) {
+      if (dt < today) { err.textContent = "Escolha uma data a partir de hoje."; dataInput.setAttribute("aria-invalid", "true"); }
+      else { quando = `${DIAS[dt.getDay()]}, ${dt.getDate()} de ${MESES[dt.getMonth()]}`; quandoMsg = `a data ${DIAS[dt.getDay()]}, ${String(dt.getDate()).padStart(2, "0")}/${String(dt.getMonth() + 1).padStart(2, "0")}/${dt.getFullYear()}`; }
+    }
+    const brinq = state.brinq.length ? `com ${list(state.brinq)}` : "sem brinquedos por enquanto";
+    $("#iv-what").textContent = what;
+    $("#iv-when").textContent = quando[0].toUpperCase() + quando.slice(1);
+    $("#iv-extra").textContent = `${brinq[0].toUpperCase() + brinq.slice(1)} · mais ou menos ${state.conv} convidados`;
+    $("#conv-val").textContent = `mais ou menos ${state.conv}`;
+    const tipoMsg = kid ? `aniversário infantil de ${state.idade} ${state.idade === 1 ? "aninho" : "anos"}` : TIPOS[state.tipo];
+    const msg = `Olá! Vim pelo site do Festeja. Queria consultar ${quandoMsg} para ${tipoMsg}, ${brinq}, para mais ou menos ${state.conv} convidados.`;
+    $("#preview").textContent = msg;
+    const send = $("#sendBtn"); send.href = wa(msg); send.target = "_blank"; send.rel = "noopener";
+    if (fx) { invite.classList.remove("bump"); void invite.offsetWidth; invite.classList.add("bump"); burst(); }
+  };
+  $("#tipo").addEventListener("click", (e) => { const b = e.target.closest(".pill"); if (!b) return; $$("#tipo .pill").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); state.tipo = b.dataset.v; render(true); });
+  $("#brinq").addEventListener("click", (e) => { const b = e.target.closest(".pill"); if (!b) return; b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true")); state.brinq = $$("#brinq .pill").filter((x) => x.getAttribute("aria-pressed") === "true").map((x) => x.dataset.v); render(true); });
+  $("#menos").addEventListener("click", () => { state.idade = Math.max(1, state.idade - 1); render(true); });
+  $("#mais").addEventListener("click", () => { state.idade = Math.min(15, state.idade + 1); render(true); });
+  dataInput.addEventListener("change", () => { state.data = dataInput.value; render(true); });
+  $("#conv").addEventListener("input", (e) => { state.conv = +e.target.value; render(false); });
+  $("#festa").addEventListener("submit", (e) => e.preventDefault());
+  render(false);
+
+  // gallery: drag with the mouse to pan
+  const view = $("#galView");
+  if (view && fine) {
+    let down = false, sx = 0, sl = 0;
+    view.addEventListener("pointerdown", (e) => { down = true; sx = e.clientX; sl = view.scrollLeft; view.style.cursor = "grabbing"; });
+    addEventListener("pointerup", () => { down = false; view.style.cursor = ""; });
+    view.addEventListener("pointermove", (e) => { if (down) view.scrollLeft = sl - (e.clientX - sx); });
+    view.style.cursor = "grab";
+  }
+
+  // buttons lean toward the pointer
+  if (fine && !reduce) $$(".pull").forEach((b) => {
+    b.addEventListener("mousemove", (e) => { const r = b.getBoundingClientRect(); b.style.translate = `${(e.clientX - r.left - r.width / 2) * 0.16}px ${(e.clientY - r.top - r.height / 2) * 0.26}px`; });
+    b.addEventListener("mouseleave", () => { b.style.translate = ""; });
+  });
+})();
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script>
+addEventListener("DOMContentLoaded", () => {
+  if (!window.gsap || !window.ScrollTrigger || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  gsap.registerPlugin(ScrollTrigger);
+  document.documentElement.classList.add("gsap-on");
+  const fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
+  const q = (s, r = document) => r.querySelector(s), qa = (s, r = document) => [...r.querySelectorAll(s)];
+  const head = q(".top");
+
+  if (fine && window.Lenis) {
+    const lenis = new Lenis({ lerp: 0.1 });
+    lenis.on("scroll", ScrollTrigger.update);
+    gsap.ticker.add((t) => lenis.raf(t * 1000));
+    gsap.ticker.lagSmoothing(0);
+    qa('a[href^="#"]').forEach((a) => a.addEventListener("click", (e) => {
+      const id = a.getAttribute("href"), t = id.length > 1 && q(id);
+      if (t) { e.preventDefault(); lenis.scrollTo(t, { offset: -(head.offsetHeight + 4) }); }
+    }));
+  }
+
+  ScrollTrigger.create({ start: 0, end: "max", onUpdate: (s) => head.classList.toggle("hide", s.direction === 1 && s.scroll() > 320) });
+
+  // section titles rise word by word
+  const split = (el) => {
+    el.classList.add("split");
+    const walk = (node) => [...node.childNodes].forEach((n) => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach((part) => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.append(part); return; }
+          const w = document.createElement("span"); w.className = "w";
+          const i = document.createElement("span"); i.textContent = part; w.append(i); frag.append(w);
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1) walk(n);
+    });
+    walk(el);
+    return qa(".w > span", el);
+  };
+  qa("main h2").forEach((h) => gsap.from(split(h), {
+    yPercent: 115,
+    duration: 1.05,
+    ease: "expo.out",
+    stagger: 0.05,
+    scrollTrigger: { trigger: h, start: "top 88%", once: true },
+    onComplete: () => {
+      qa(".w", h).forEach((w) => { w.style.overflow = "visible"; });
+    }
+  }));
+
+  // the photo line sways; the pointer pushes the cards like a breeze
+  const cards = qa(".varal .card");
+  const sways = cards.map((c, i) => gsap.fromTo(q(".sway", c), { rotation: -2.4 }, { rotation: 2.4, duration: 2.6 + i * 0.5, ease: "sine.inOut", repeat: -1, yoyo: true, delay: -i }));
+  const hero = q(".hero");
+  if (fine) {
+    const pushes = cards.map((c) => gsap.quickTo(c, "rotation", { duration: 1.4, ease: "elastic.out(1, 0.4)" }));
+    hero.addEventListener("pointermove", (e) => {
+      const r = hero.getBoundingClientRect(), nx = (e.clientX - r.left) / r.width - 0.5;
+      cards.forEach((c, i) => pushes[i](nx * 8 * +c.dataset.sway));
+    });
+    hero.addEventListener("pointerleave", () => pushes.forEach((p) => p(0)));
+  }
+  gsap.to(".varal", { y: -50, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true } });
+  gsap.to(".hero-copy", { y: -60, opacity: 0.35, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true } });
+
+  // ribbon follows the scroll speed and direction
+  const loop = gsap.to(".band-track", { xPercent: -50, ease: "none", duration: 44, repeat: -1 });
+  ScrollTrigger.create({ onUpdate: (s) => {
+    gsap.to(loop, { timeScale: s.direction * Math.min(5, 1 + Math.abs(s.getVelocity()) / 450), duration: 0.25, overwrite: true });
+    gsap.to(loop, { timeScale: s.direction, duration: 1.2, delay: 0.25 });
+  } });
+
+  // the hall photo opens like a curtain and drifts
+  gsap.from("#hallPic", { clipPath: "inset(0% 50% 0% 50% round 32px)", duration: 1.5, ease: "expo.inOut", scrollTrigger: { trigger: "#hallPic", start: "top 78%", once: true } });
+  gsap.fromTo("#hallPic img", { yPercent: -8 }, { yPercent: 0, ease: "none", scrollTrigger: { trigger: "#hallPic", start: "top bottom", end: "bottom top", scrub: true } });
+
+  // the invitation lands on the table
+  gsap.from(".invite", { y: 60, rotation: -4, opacity: 0, duration: 1.2, ease: "expo.out", scrollTrigger: { trigger: "#monte", start: "top 70%", once: true } });
+
+  // gallery: on desktop the vertical scroll walks the photos sideways
+  const gal = q("#galeria"), track = q("#galTrack"), view = q("#galView");
+  if (fine && innerWidth > 960) {
+    gal.classList.add("pinned");
+    const dist = () => Math.max(0, track.scrollWidth - innerWidth);
+    gsap.to(track, { x: () => -dist(), ease: "none", scrollTrigger: { trigger: gal, start: "top top", end: () => "+=" + dist(), pin: true, scrub: 0.6, invalidateOnRefresh: true } });
+    q(".gal-hint").lastChild.textContent = "Role pra ver mais";
+    view.style.cursor = "";
+  }
+  gsap.from(".shot", { y: 80, opacity: 0, duration: 1, ease: "expo.out", stagger: 0.08, scrollTrigger: { trigger: gal, start: "top 70%", once: true } });
+
+  // closing card grows into place
+  gsap.from(".final", { scale: 0.92, ease: "none", scrollTrigger: { trigger: ".final", start: "top bottom", end: "top 50%", scrub: true } });
+
+  addEventListener("load", () => ScrollTrigger.refresh());
+});
+</script>
+</body>
+</html>
